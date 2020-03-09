@@ -1,5 +1,13 @@
 # QT_3d_mouse_ray-tracing
 A gui without any opengl matrixes. 3d mouse ray tracing included
 
+The red dot is the 3D intersection with the mouse. 
+
+For ray tracing the mouse pointer is implemented as a line in the z axis direction.
+Each of the 3d cube lines are calculated in time from 0 to 1, to get the points on the cube lines with a certain resolution.
+
+Each calculated point of the cube within 0.2mm near the z direction mouse pointer line is a intersection.
+
+Look at the code. It's written without opengl matixes. We don't need them !!
 
 ![1](https://raw.githubusercontent.com/grotius-cnc/QT_3d_mouse_ray-tracing/master/qt_opengl_pic.png)
