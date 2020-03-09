@@ -12,3 +12,9 @@ Each calculated point of the cube within 0.2mm near the z direction mouse pointe
 Look at the code. It's written without opengl matixes. We don't need them !!
 
 ![1](https://raw.githubusercontent.com/grotius-cnc/QT_3d_mouse_ray-tracing/master/qt_opengl_pic.png)
+
+Coded in Linux :
+Qt Creator 4.8.2
+Based on Qt 5.9.8 (GCC 5.3.1 20160406 (Red Hat 5.3.1-6), 64 bit)
+Built on Mar 22 2019 
+From revision 04aac85e26
